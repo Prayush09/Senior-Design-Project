@@ -7,9 +7,9 @@ This Turborepo starter is maintained by the Turborepo core team.
 Run the following command:
 
 ```sh
-npx create-turbo@latest
+pnpm install
 ```
-
+Run this in the main directory and if pnpm not installed, use npm to install it globally, Prayush.
 ## What's inside?
 
 This Turborepo includes the following packages/apps:
