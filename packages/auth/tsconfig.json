@@ -1,0 +1,3 @@
+{
+  "extends": "@resunet/typescript-config/base.json"
+}

@@ -1,8 +1,8 @@
 {
-  "name": "backend",
+  "name": "@resunet/auth",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,9 +10,11 @@
   "author": "",
   "license": "ISC",
   "type": "commonjs",
+  "dependencies": {
+    "next-auth": "^4.0.0"
+  },
   "devDependencies": {
-    "@resunet/eslint-config": "workspace:*",
-    "@resunet/typescript-config": "workspace:*",
-    "typescript": "^5.8.2",
-    "@resunet/auth": "workspace:*"
-  }}
+    "@types/next-auth": "^3.15.0",
+    "@resunet/typescript-config": "workspace:*"
+  }
+}

@@ -1,11 +1,18 @@
 {
-  "extends": "@repo/typescript-config/nextjs.json",
+  "extends": "@resunet/typescript-config/base.json",
   "compilerOptions": {
     "plugins": [
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@resunet/auth": [
+        "../packages/auth"
+      ]
+    },
+    "allowJs": true,
+    "noEmit": true
   },
   "include": [
     "**/*.ts",

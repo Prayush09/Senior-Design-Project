@@ -1,5 +1,5 @@
 {
-  "name": "Senior-Design-Project",
+  "name": "senior-design-project",
   "private": true,
   "scripts": {
     "build": "turbo run build",
@@ -9,6 +9,7 @@
     "check-types": "turbo run check-types"
   },
   "devDependencies": {
+    "@types/next-auth": "^3.15.0",
     "prettier": "^3.5.3",
     "turbo": "^2.4.4",
     "typescript": "5.8.2"
