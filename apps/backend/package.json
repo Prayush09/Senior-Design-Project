@@ -11,8 +11,21 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@resunet/auth": "workspace:*",
+    "@resunet/db": "workspace:*",
     "@resunet/eslint-config": "workspace:*",
     "@resunet/typescript-config": "workspace:*",
-    "typescript": "^5.8.2",
-    "@resunet/auth": "workspace:*"
-  }}
+    "@types/bcrypt": "^5.0.2",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^22.13.9",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "google-auth-library": "^9.15.1",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
