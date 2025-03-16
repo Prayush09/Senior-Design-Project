@@ -1,0 +1,1 @@
+{"root":["./src/index.ts","./src/auth/[...nextauth].ts","./src/controller/authController.ts","./src/middleware/cors.ts","./src/middleware/middleware.ts","./src/routes/authRoutes.ts","./src/service/authService.ts"],"errors":true,"version":"5.8.2"}

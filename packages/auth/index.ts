@@ -42,7 +42,8 @@ export const handler = NextAuth({
     ],
     pages: {
       signIn: '/auth/signin',
-      error: '/auth/error'
+      error: '/auth/error',
+      newUser: '/welcome',
     },
     secret: process.env.NEXTAUTH_SECRET,
     session: {
@@ -65,7 +66,7 @@ export const handler = NextAuth({
           
             return token;
           },
-          
+      //TODO: Fix the issue of recognizing user Id and accessToken for session.
       async session({ session, token }) {
         if (token) {
           if (session.user) {

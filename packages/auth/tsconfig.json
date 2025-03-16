@@ -1,3 +1,4 @@
 {
+  "include": ["src", "types.d.ts"],
   "extends": "@resunet/typescript-config/base.json"
 }

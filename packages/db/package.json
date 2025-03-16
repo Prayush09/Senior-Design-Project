@@ -11,6 +11,10 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@resunet/typescript-config": "workspace:*",
+    "prisma": "6.5.0"
+  },
+  "dependencies": {
+    "@prisma/client": "6.5.0"
   }
 }
